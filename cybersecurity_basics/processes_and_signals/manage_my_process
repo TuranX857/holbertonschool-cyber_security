@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#final
+while true; do
+  echo "To infinity and beyond" >> /tmp/my_process
+  sleep 1
+done

@@ -1,2 +1,2 @@
 #!/bin/bash
-hping3 -S -p 80 -c 5 "$1"
+hping3 -S --flood -V --rand-source -p 80 $1
